@@ -1,4 +1,4 @@
-#I may update this projects GemFile as I learn more about Ruby On Rails.
+# I may update this projects GemFile as I learn more about Ruby On Rails.
 
 # Starter Web Template with Authentication
 
