@@ -35,7 +35,6 @@ cd starter_web_template
 Create and migrate the database with:
 
 ```bash
-Copy code
 rails db:create
 rails db:migrate
 ```
@@ -44,7 +43,6 @@ rails db:migrate
 If you have seed data to populate the database (e.g., creating an admin user), run:
 
 ```bash
-Copy code
 rails db:seed
 ```
 
@@ -52,7 +50,6 @@ rails db:seed
 Start the Rails server:
 
 ```bash
-Copy code
 rails server
 ```
 You can now access the application at http://localhost:3000.
@@ -72,7 +69,6 @@ The application supports two roles: user and admin.
 To assign roles manually, you can use the Rails console:
 
 ```bash
-Copy code
 rails console
 user = User.find_by(email: 'user@example.com')
 user.update(role: :admin)
