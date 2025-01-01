@@ -1,3 +1,5 @@
+#I may update this projects GemFile as I learn more about Ruby On Rails.
+
 # Starter Web Template with Authentication
 
 This is a Ruby on Rails template project with user authentication.
